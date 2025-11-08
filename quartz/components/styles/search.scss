@@ -39,6 +39,11 @@
         stroke-width: 1.5px;
         transition: stroke 0.5s ease;
       }
+      
+      // 在暗色模式下使用更亮的颜色
+      :root[saved-theme="dark"] & .search-path {
+        stroke: #D4AF37; // 暗金色
+      }
     }
   }
 

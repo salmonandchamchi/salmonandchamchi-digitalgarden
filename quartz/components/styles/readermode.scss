@@ -19,6 +19,12 @@
     stroke: var(--darkgray);
     transition: opacity 0.1s ease;
   }
+  
+  // 在暗色模式下使用更亮的颜色
+  :root[saved-theme="dark"] & svg {
+    fill: #D4AF37; // 暗金色
+    stroke: #D4AF37; // 暗金色
+  }
 }
 
 :root[reader-mode="on"] {

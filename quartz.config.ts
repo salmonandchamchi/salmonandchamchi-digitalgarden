@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Salmonandchamchi's Notebook",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -40,15 +40,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#000000",        // 纯黑色背景
+          lightgray: "#1a1a1a",    // 深灰黑色
+          gray: "#8B7500",         // 暗金色
+          darkgray: "#gold",       // 金色
+          dark: "#FFFFFF",         // 白色文字以确保对比度
+          secondary: "#D4AF37",    // 暗金色作为次要颜色
+          tertiary: "#B8860B",     // 另一种暗金色作为第三颜色
+          highlight: "rgba(139, 117, 0, 0.3)",  // 暗金色半透明高亮
+          textHighlight: "#D4AF3788",           // 暗金色文本高亮
         },
       },
     },
